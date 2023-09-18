@@ -53,7 +53,7 @@ menu_pricing.addEventListener("click", () => {
     menu_pricing.classList.remove("show", "active");
     menu_pricingSubmenu.classList.remove("show");
   } else {
-    block.classList.add("show", "active");
+    menu_pricing.classList.add("show", "active");
     menu_pricingSubmenu.classList.add("show");
   }
 });

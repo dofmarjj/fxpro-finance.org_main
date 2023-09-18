@@ -26,7 +26,7 @@ const menu_pricingSubmenu = document.getElementById("menu_pricing-submenu");
 const menu_about = document.getElementById("menu_about");
 const menu_aboutSubmenu = document.getElementById("menu_about-submenu");
 const documentMenu = document.getElementById("document-menu");
-const menuAboutSubmenu = document.getElementById("document-menu-submenu");
+const documentMenuSubmenu = document.getElementById("document-menu-submenu");
 
 // Item 1
 
@@ -101,9 +101,9 @@ documentMenu.addEventListener("click", () => {
 });
 documentMenu.addEventListener("mouseenter", () => {
   documentMenu.classList.add("show", "active");
-  menuAboutSubmenu.classList.add("show");
+  documentMenuSubmenu.classList.add("show");
 });
 documentMenu.addEventListener("mouseleave", () => {
   documentMenu.classList.remove("show", "active");
-  menuAboutSubmenu.classList.remove("show");
+  documentMenuSubmenu.classList.remove("show");
 });

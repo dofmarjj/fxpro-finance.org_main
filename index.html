@@ -2101,688 +2101,171 @@
                       </p>
                     </article>
                     <div class="col-md-6">
-                      <nav class="tabset-nav">
-                        <ul>
-                          <li
-                            id="global_Popular"
-                            data-category="LandingPage"
-                            class="market-select-btn active first-button">
-                            <a
-                              data-market="global_Popular"
-                              href="javascript:void(0)"
-                              >Популярное</a
-                            >
-                          </li>
-                          <div id="market-categories-container">
-                            <li
-                              class="market-select-btn"
-                              id="menu_forex"
-                              data-title="Валюты"
-                              data-url="/trading/forex"
-                              data-category="ForexAll">
-                              <a href="javascript:void(0)">Валюты </a>
-                            </li>
-
-                            <li
-                              class="market-select-btn"
-                              id="menu_cryptocurrencies_2"
-                              data-title="CFD на крипто"
-                              data-url="/trading/cryptocurrencies"
-                              data-category="CryptocurrenciesAll">
-                              <a href="javascript:void(0)">CFD на крипто </a>
-                            </li>
-
-                            <li
-                              class="market-select-btn"
-                              id="menu_spot_metals"
-                              data-title="Металлы"
-                              data-url="/trading/metals"
-                              data-category="Metals">
-                              <a href="javascript:void(0)"
-                                >Металлы
-
-                                <span class="new-badge"> новый </span>
-                              </a>
-                            </li>
-
-                            <li class="item-break"></li>
-
-                            <li
-                              class="market-select-btn"
-                              id="menu_spot_indices"
-                              data-title="Индексы"
-                              data-url="/trading/indices"
-                              data-category="SpotIndices">
-                              <a href="javascript:void(0)">Индексы </a>
-                            </li>
-
-                            <li
-                              class="market-select-btn"
-                              id="menu_futures"
-                              data-title="Фьючерсы"
-                              data-url="/trading/futures"
-                              data-category="FuturesAll">
-                              <a href="javascript:void(0)">Фьючерсы </a>
-                            </li>
-
-                            <li
-                              class="market-select-btn"
-                              id="menu_spot_energies"
-                              data-title="Энергоресурсы"
-                              data-url="/trading/energies"
-                              data-category="EnergySpot">
-                              <a href="javascript:void(0)">Энергоресурсы </a>
-                            </li>
-
-                            <li
-                              class="market-select-btn"
-                              id="menu_shares"
-                              data-title="Акции"
-                              data-url="/trading/shares"
-                              data-category="SharesAll">
-                              <a href="javascript:void(0)">Акции </a>
-                            </li>
-                          </div>
-                          <li class="item-break"></li>
-                          <li class="item-wide">
-                            <search-widget
-                              class="markets-filter-form"
-                              ng-reflect-is-focused="false"
-                              ng-reflect-number-found-items="5"
-                              ng-reflect-placeholder="Search instruments">
-                              <div
-                                _ngcontent-ng-cli-universal-c100=""
-                                class="search-widget">
-                                <div
-                                  _ngcontent-ng-cli-universal-c100=""
-                                  class="form-group">
-                                  <ng-select
-                                    _ngcontent-ng-cli-universal-c100=""
-                                    role="listbox"
-                                    id="searchInput"
-                                    bindlabel="id"
-                                    bindvalue="url"
-                                    class="ng-select form-control ng-select-single ng-select-searchable ng-select-clearable ng-select-typeahead ng-untouched ng-pristine ng-valid"
-                                    ng-reflect-bind-label="id"
-                                    ng-reflect-bind-value="url"
-                                    ng-reflect-items=""
-                                    ng-reflect-placeholder="Search instruments">
-                                    <div class="ng-select-container">
-                                      <div class="ng-value-container">
-                                        <div class="search-input-placehodler">
-                                          Найти инструмент
-                                        </div>
-                                        <div class="ng-input">
-                                          <input
-                                            role="combobox"
-                                            class="search-input"
-                                            data-search-container="section-markets"
-                                            type="text"
-                                            autocorrect="off"
-                                            autocapitalize="off"
-                                            autocomplete="acaef9c3d441"
-                                            aria-expanded="false" />
-                                        </div>
-                                      </div>
-                                      <span
-                                        data-search-container="section-markets"
-                                        class="ng-clear-wrapper hide clear-wrapper"
-                                        title="Очистить"
-                                        ><span
-                                          aria-hidden="true"
-                                          class="ng-clear"
-                                          >×</span
-                                        ></span
-                                      ><span class="ng-arrow-wrapper"
-                                        ><span class="ng-arrow"></span
-                                      ></span>
-                                    </div>
-                                    <ng-dropdown-panel
-                                      class="ng-dropdown-panel ng-select-bottom hide search-dropdown"
-                                      ng-reflect-virtual-scroll="false"
-                                      ng-reflect-buffer-amount="4"
-                                      ng-reflect-position="auto"
-                                      id="a4b677c39e02"
-                                      style="opacity: 1">
-                                      <div
-                                        class="ng-dropdown-panel-items scroll-host">
-                                        <div></div>
-                                        <div class="hide search-results"></div>
-                                        <div
-                                          class="ng-option ng-option-disabled hide type-to-search-msg">
-                                          Начните вводить название
-                                        </div>
-                                        <div
-                                          class="ng-option ng-option-disabled hide no-items-found-msg">
-                                          Ничего не найдено
-                                        </div>
-                                      </div>
-                                    </ng-dropdown-panel>
-                                  </ng-select>
-                                  <div
-                                    class="btn-search search-icon-placeholder">
-                                    <i class="fx-symbol-search"></i>
-                                  </div>
-                                </div>
-                              </div>
-                            </search-widget>
-                          </li>
-                        </ul>
-                      </nav>
-                      <div class="tabset-content">
-                        <div class="tab table">
-                          <div class="table-header tr">
-                            <div class="td">Рынки</div>
-                            <div class="td">Продать</div>
-                            <div class="td">Купить</div>
-                            <div class="td d-md-none"></div>
-                            <div class="td d-none d-md-block">Спреды</div>
-                          </div>
-                          <div class="table-body">
-                            <div
-                              _ngcontent-ng-cli-universal-c130=""
-                              id="EURUSDglobal_Popular"
-                              data-name="EURUSD"
-                              data-category="LandingPage"
-                              class="tr market-instrument global_Popular up">
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td">
-                                EURUSD
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td">
-                                <a
-                                  _ngcontent-ng-cli-universal-c130=""
-                                  class="btn-trade btn-trade--sell"
-                                  target="_blank"
-                                  href="#"
-                                  rel="nofollow noopener">
-                                  <span
-                                    _ngcontent-ng-cli-universal-c130=""
-                                    class="mark">
-                                    <i
-                                      _ngcontent-ng-cli-universal-c130=""
-                                      class="fx-symbol-arrow"></i
-                                    >&nbsp;•
-                                  </span>
-                                  <span class="sell">1.06598</span>
-                                </a>
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td">
-                                <a
-                                  _ngcontent-ng-cli-universal-c130=""
-                                  href="#"
-                                  class="btn-trade btn-trade--buy"
-                                  target="_blank"
-                                  rel="nofollow noopener"
-                                  ><span
-                                    _ngcontent-ng-cli-universal-c130=""
-                                    class="mark"
-                                    ><i
-                                      _ngcontent-ng-cli-universal-c130=""
-                                      class="fx-symbol-arrow"></i
-                                    >&nbsp;•</span
-                                  >
-                                  <span class="buy">1.06611</span>
-                                </a>
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td d-none d-md-block spread">
-                                1.3
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td d-md-none">
-                                <a
-                                  _ngcontent-ng-cli-universal-c130=""
-                                  href="#"
-                                  class="btn-trade-mobile"
-                                  target="_blank"
-                                  rel="nofollow noopener">
-                                  Выбрать
-                                </a>
-                              </div>
-                            </div>
-
-                            <div
-                              _ngcontent-ng-cli-universal-c130=""
-                              id="GBPUSDglobal_Popular"
-                              data-name="GBPUSD"
-                              data-category="LandingPage"
-                              class="tr market-instrument global_Popular up">
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td">
-                                GBPUSD
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td">
-                                <a
-                                  _ngcontent-ng-cli-universal-c130=""
-                                  class="btn-trade btn-trade--sell"
-                                  target="_blank"
-                                  href="#"
-                                  rel="nofollow noopener">
-                                  <span
-                                    _ngcontent-ng-cli-universal-c130=""
-                                    class="mark">
-                                    <i
-                                      _ngcontent-ng-cli-universal-c130=""
-                                      class="fx-symbol-arrow"></i
-                                    >&nbsp;•
-                                  </span>
-                                  <span class="sell">1.23835</span>
-                                </a>
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td">
-                                <a
-                                  _ngcontent-ng-cli-universal-c130=""
-                                  href="#"
-                                  class="btn-trade btn-trade--buy"
-                                  target="_blank"
-                                  rel="nofollow noopener"
-                                  ><span
-                                    _ngcontent-ng-cli-universal-c130=""
-                                    class="mark"
-                                    ><i
-                                      _ngcontent-ng-cli-universal-c130=""
-                                      class="fx-symbol-arrow"></i
-                                    >&nbsp;•</span
-                                  >
-                                  <span class="buy">1.23850</span>
-                                </a>
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td d-none d-md-block spread">
-                                1.5
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td d-md-none">
-                                <a
-                                  _ngcontent-ng-cli-universal-c130=""
-                                  href="#"
-                                  class="btn-trade-mobile"
-                                  target="_blank"
-                                  rel="nofollow noopener">
-                                  Выбрать
-                                </a>
-                              </div>
-                            </div>
-
-                            <div
-                              _ngcontent-ng-cli-universal-c130=""
-                              id="WTIglobal_Popular"
-                              data-name="WTI"
-                              data-category="LandingPage"
-                              class="tr market-instrument global_Popular up">
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td">
-                                WTI
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td">
-                                <a
-                                  _ngcontent-ng-cli-universal-c130=""
-                                  class="btn-trade btn-trade--sell"
-                                  target="_blank"
-                                  href="#"
-                                  rel="nofollow noopener">
-                                  <span
-                                    _ngcontent-ng-cli-universal-c130=""
-                                    class="mark">
-                                    <i
-                                      _ngcontent-ng-cli-universal-c130=""
-                                      class="fx-symbol-arrow"></i
-                                    >&nbsp;•
-                                  </span>
-                                  <span class="sell">90.973</span>
-                                </a>
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td">
-                                <a
-                                  _ngcontent-ng-cli-universal-c130=""
-                                  href="#"
-                                  class="btn-trade btn-trade--buy"
-                                  target="_blank"
-                                  rel="nofollow noopener"
-                                  ><span
-                                    _ngcontent-ng-cli-universal-c130=""
-                                    class="mark"
-                                    ><i
-                                      _ngcontent-ng-cli-universal-c130=""
-                                      class="fx-symbol-arrow"></i
-                                    >&nbsp;•</span
-                                  >
-                                  <span class="buy">91.003</span>
-                                </a>
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td d-none d-md-block spread">
-                                30
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td d-md-none">
-                                <a
-                                  _ngcontent-ng-cli-universal-c130=""
-                                  href="#"
-                                  class="btn-trade-mobile"
-                                  target="_blank"
-                                  rel="nofollow noopener">
-                                  Выбрать
-                                </a>
-                              </div>
-                            </div>
-
-                            <div
-                              _ngcontent-ng-cli-universal-c130=""
-                              id="ETHEREUMglobal_Popular"
-                              data-name="ETHEREUM"
-                              data-category="LandingPage"
-                              class="tr market-instrument global_Popular up">
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td">
-                                ETHUSD
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td">
-                                <a
-                                  _ngcontent-ng-cli-universal-c130=""
-                                  class="btn-trade btn-trade--sell"
-                                  target="_blank"
-                                  href="#"
-                                  rel="nofollow noopener">
-                                  <span
-                                    _ngcontent-ng-cli-universal-c130=""
-                                    class="mark">
-                                    <i
-                                      _ngcontent-ng-cli-universal-c130=""
-                                      class="fx-symbol-arrow"></i
-                                    >&nbsp;•
-                                  </span>
-                                  <span class="sell">1663.37</span>
-                                </a>
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td">
-                                <a
-                                  _ngcontent-ng-cli-universal-c130=""
-                                  href="#"
-                                  class="btn-trade btn-trade--buy"
-                                  target="_blank"
-                                  rel="nofollow noopener"
-                                  ><span
-                                    _ngcontent-ng-cli-universal-c130=""
-                                    class="mark"
-                                    ><i
-                                      _ngcontent-ng-cli-universal-c130=""
-                                      class="fx-symbol-arrow"></i
-                                    >&nbsp;•</span
-                                  >
-                                  <span class="buy">1666.53</span>
-                                </a>
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td d-none d-md-block spread">
-                                316
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td d-md-none">
-                                <a
-                                  _ngcontent-ng-cli-universal-c130=""
-                                  href="#"
-                                  class="btn-trade-mobile"
-                                  target="_blank"
-                                  rel="nofollow noopener">
-                                  Выбрать
-                                </a>
-                              </div>
-                            </div>
-
-                            <div
-                              _ngcontent-ng-cli-universal-c130=""
-                              id="US30global_Popular"
-                              data-name="#US30"
-                              data-category="LandingPage"
-                              class="tr market-instrument global_Popular down">
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td">
-                                #US30
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td">
-                                <a
-                                  _ngcontent-ng-cli-universal-c130=""
-                                  class="btn-trade btn-trade--sell"
-                                  target="_blank"
-                                  href="#"
-                                  rel="nofollow noopener">
-                                  <span
-                                    _ngcontent-ng-cli-universal-c130=""
-                                    class="mark">
-                                    <i
-                                      _ngcontent-ng-cli-universal-c130=""
-                                      class="fx-symbol-arrow"></i
-                                    >&nbsp;•
-                                  </span>
-                                  <span class="sell">34630.37</span>
-                                </a>
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td">
-                                <a
-                                  _ngcontent-ng-cli-universal-c130=""
-                                  href="#"
-                                  class="btn-trade btn-trade--buy"
-                                  target="_blank"
-                                  rel="nofollow noopener"
-                                  ><span
-                                    _ngcontent-ng-cli-universal-c130=""
-                                    class="mark"
-                                    ><i
-                                      _ngcontent-ng-cli-universal-c130=""
-                                      class="fx-symbol-arrow"></i
-                                    >&nbsp;•</span
-                                  >
-                                  <span class="buy">34632.52</span>
-                                </a>
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td d-none d-md-block spread">
-                                215
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td d-md-none">
-                                <a
-                                  _ngcontent-ng-cli-universal-c130=""
-                                  href="#"
-                                  class="btn-trade-mobile"
-                                  target="_blank"
-                                  rel="nofollow noopener">
-                                  Выбрать
-                                </a>
-                              </div>
-                            </div>
-
-                            <div
-                              _ngcontent-ng-cli-universal-c130=""
-                              id="GOLDglobal_Popular"
-                              data-name="GOLD"
-                              data-category="LandingPage"
-                              class="tr market-instrument global_Popular up">
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td">
-                                GOLD
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td">
-                                <a
-                                  _ngcontent-ng-cli-universal-c130=""
-                                  class="btn-trade btn-trade--sell"
-                                  target="_blank"
-                                  href="#"
-                                  rel="nofollow noopener">
-                                  <span
-                                    _ngcontent-ng-cli-universal-c130=""
-                                    class="mark">
-                                    <i
-                                      _ngcontent-ng-cli-universal-c130=""
-                                      class="fx-symbol-arrow"></i
-                                    >&nbsp;•
-                                  </span>
-                                  <span class="sell">1924.11</span>
-                                </a>
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td">
-                                <a
-                                  _ngcontent-ng-cli-universal-c130=""
-                                  href="#"
-                                  class="btn-trade btn-trade--buy"
-                                  target="_blank"
-                                  rel="nofollow noopener"
-                                  ><span
-                                    _ngcontent-ng-cli-universal-c130=""
-                                    class="mark"
-                                    ><i
-                                      _ngcontent-ng-cli-universal-c130=""
-                                      class="fx-symbol-arrow"></i
-                                    >&nbsp;•</span
-                                  >
-                                  <span class="buy">1924.38</span>
-                                </a>
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td d-none d-md-block spread">
-                                27
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td d-md-none">
-                                <a
-                                  _ngcontent-ng-cli-universal-c130=""
-                                  href="#"
-                                  class="btn-trade-mobile"
-                                  target="_blank"
-                                  rel="nofollow noopener">
-                                  Выбрать
-                                </a>
-                              </div>
-                            </div>
-
-                            <div
-                              _ngcontent-ng-cli-universal-c130=""
-                              id="BITCOINglobal_Popular"
-                              data-name="BITCOIN"
-                              data-category="LandingPage"
-                              class="tr market-instrument global_Popular up">
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td">
-                                BTCUSD
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td">
-                                <a
-                                  _ngcontent-ng-cli-universal-c130=""
-                                  class="btn-trade btn-trade--sell"
-                                  target="_blank"
-                                  href="#"
-                                  rel="nofollow noopener">
-                                  <span
-                                    _ngcontent-ng-cli-universal-c130=""
-                                    class="mark">
-                                    <i
-                                      _ngcontent-ng-cli-universal-c130=""
-                                      class="fx-symbol-arrow"></i
-                                    >&nbsp;•
-                                  </span>
-                                  <span class="sell">27367.66</span>
-                                </a>
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td">
-                                <a
-                                  _ngcontent-ng-cli-universal-c130=""
-                                  href="#"
-                                  class="btn-trade btn-trade--buy"
-                                  target="_blank"
-                                  rel="nofollow noopener"
-                                  ><span
-                                    _ngcontent-ng-cli-universal-c130=""
-                                    class="mark"
-                                    ><i
-                                      _ngcontent-ng-cli-universal-c130=""
-                                      class="fx-symbol-arrow"></i
-                                    >&nbsp;•</span
-                                  >
-                                  <span class="buy">27401.35</span>
-                                </a>
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td d-none d-md-block spread">
-                                3369
-                              </div>
-                              <div
-                                _ngcontent-ng-cli-universal-c130=""
-                                class="td d-md-none">
-                                <a
-                                  _ngcontent-ng-cli-universal-c130=""
-                                  href="#"
-                                  class="btn-trade-mobile"
-                                  target="_blank"
-                                  rel="nofollow noopener">
-                                  Выбрать
-                                </a>
-                              </div>
-                            </div>
-                          </div>
+                      <!-- TradingView Widget BEGIN -->
+                      <div
+                        class="tradingview-widget-container"
+                        style="margin: 0 auto">
+                        <div class="tradingview-widget-container__widget"></div>
+                        <div class="tradingview-widget-copyright">
+                          <a
+                            href="https://ru.tradingview.com/"
+                            rel="noopener nofollow"
+                            target="_blank"
+                            ><span class="blue-text"
+                              >Следите за рынками на TradingView</span
+                            ></a
+                          >
                         </div>
+                        <script
+                          type="text/javascript"
+                          src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js"
+                          async>
+                            {
+                            "colorTheme": "light",
+                            "dateRange": "12M",
+                            "showChart": true,
+                            "locale": "ru",
+                            "largeChartUrl": "",
+                            "isTransparent": false,
+                            "showSymbolLogo": true,
+                            "showFloatingTooltip": false,
+                            "width": "400",
+                            "height": "660",
+                            "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+                            "plotLineColorFalling": "rgba(41, 98, 255, 1)",
+                            "gridLineColor": "rgba(0, 0, 0, 0)",
+                            "scaleFontColor": "rgba(106, 109, 120, 1)",
+                            "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+                            "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+                            "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+                            "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+                            "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
+                            "tabs": [
+                              {
+                                "title": "Индексы",
+                                "symbols": [
+                                  {
+                                    "s": "FOREXCOM:SPXUSD",
+                                    "d": "S&P 500"
+                                  },
+                                  {
+                                    "s": "FOREXCOM:NSXUSD",
+                                    "d": "US 100"
+                                  },
+                                  {
+                                    "s": "FOREXCOM:DJI",
+                                    "d": "Dow 30"
+                                  },
+                                  {
+                                    "s": "INDEX:NKY",
+                                    "d": "Nikkei 225"
+                                  },
+                                  {
+                                    "s": "INDEX:DEU40",
+                                    "d": "DAX Index"
+                                  },
+                                  {
+                                    "s": "FOREXCOM:UKXGBP",
+                                    "d": "UK 100"
+                                  }
+                                ],
+                                "originalTitle": "Indices"
+                              },
+                              {
+                                "title": "Фьючерсы",
+                                "symbols": [
+                                  {
+                                    "s": "CME_MINI:ES1!",
+                                    "d": "S&P 500"
+                                  },
+                                  {
+                                    "s": "CME:6E1!",
+                                    "d": "Euro"
+                                  },
+                                  {
+                                    "s": "COMEX:GC1!",
+                                    "d": "Gold"
+                                  },
+                                  {
+                                    "s": "NYMEX:CL1!",
+                                    "d": "Oil"
+                                  },
+                                  {
+                                    "s": "NYMEX:NG1!",
+                                    "d": "Gas"
+                                  },
+                                  {
+                                    "s": "CBOT:ZC1!",
+                                    "d": "Corn"
+                                  }
+                                ],
+                                "originalTitle": "Futures"
+                              },
+                              {
+                                "title": "Облигации",
+                                "symbols": [
+                                  {
+                                    "s": "CME:GE1!",
+                                    "d": "Eurodollar"
+                                  },
+                                  {
+                                    "s": "CBOT:ZB1!",
+                                    "d": "T-Bond"
+                                  },
+                                  {
+                                    "s": "CBOT:UB1!",
+                                    "d": "Ultra T-Bond"
+                                  },
+                                  {
+                                    "s": "EUREX:FGBL1!",
+                                    "d": "Euro Bund"
+                                  },
+                                  {
+                                    "s": "EUREX:FBTP1!",
+                                    "d": "Euro BTP"
+                                  },
+                                  {
+                                    "s": "EUREX:FGBM1!",
+                                    "d": "Euro BOBL"
+                                  }
+                                ],
+                                "originalTitle": "Bonds"
+                              },
+                              {
+                                "title": "Форекс",
+                                "symbols": [
+                                  {
+                                    "s": "FX:EURUSD",
+                                    "d": "EUR to USD"
+                                  },
+                                  {
+                                    "s": "FX:GBPUSD",
+                                    "d": "GBP to USD"
+                                  },
+                                  {
+                                    "s": "FX:USDJPY",
+                                    "d": "USD to JPY"
+                                  },
+                                  {
+                                    "s": "FX:USDCHF",
+                                    "d": "USD to CHF"
+                                  },
+                                  {
+                                    "s": "FX:AUDUSD",
+                                    "d": "AUD to USD"
+                                  },
+                                  {
+                                    "s": "FX:USDCAD",
+                                    "d": "USD to CAD"
+                                  }
+                                ],
+                                "originalTitle": "Forex"
+                              }
+                            ]
+                          }
+                        </script>
                       </div>
-                      <div class="linknote d-none">
-                        <a href="">
-                          Посмотрите полный список
-                          <span class="current-market"></span> →
-                        </a>
-                      </div>
-                      <p class="note">
-                        * Рассчитано на спредах MT4 счетов. Данные предоставлены
-                        с целью ознакомления. Пожалуйста, выберите отдельные
-                        символы, чтобы увидеть торговые условия и средние спреды
-                        для каждого типа счета.
-                      </p>
+                      <!-- TradingView Widget END -->
                     </div>
                   </div>
                 </div>
